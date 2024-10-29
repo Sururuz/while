@@ -4,12 +4,11 @@ index = 0
 
 while index < len(my_list):
     number = my_list[index]
-
+    index += 1
     if number < 0:
         break
 
     if number == 0:
-        index += 1
         continue
 
     print(number)
