@@ -13,5 +13,3 @@ while index < len(my_list):
         continue
 
     print(number)
-
-    index += 1
